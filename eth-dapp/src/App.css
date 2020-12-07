@@ -1,0 +1,79 @@
+
+
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background:rgb(27, 27, 27);
+}
+
+.text-white{
+  color:white;
+}
+
+.extensionWarning{
+  background: #ff4e4e;
+  padding: 10px;
+  color: white;
+}
+
+header{
+  padding: 15px;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+header h2{
+  color:white;
+}
+
+header button{
+  padding:5px 15px;
+  font-weight:600;
+  cursor:pointer;
+}
+
+.connected{
+  color:rgb(124, 255, 112);
+}
+
+.balaceContainer{
+  padding:15px;
+}
+
+.tokenTransfer{
+background:black;
+display: inline-block;
+padding: 20px;
+margin: 15px;
+box-shadow: 0px 0px 10px #0000002b;
+}
+
+.tokenTransfer label{
+ color:white;
+ display: block;
+}
+
+.tokenTransfer input{
+ border:1px solid white;
+ padding:10px;
+ background:none;
+ margin-bottom:20px;
+ margin-top:10px;
+ width:300px;
+ max-width: 100%;
+ color:White;
+}
+
+.tokenTransfer button{
+ background:white;
+ padding:10px;
+ width:100%;
+ display:block;
+ border:none;
+ margin-top:10px;
+ cursor:pointer;
+}
